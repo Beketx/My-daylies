@@ -1,0 +1,10 @@
+just testing my terminal skills
+first its openeing with shift+cmd+m
+scond ls
+third create new file with touch something.txt or md or wahtever
+fourth is editing this file thorugh terminal with "nano something.txt"
+last is control+x to exit nad "Y"to save
+than git add .
+git commit -m "something"
+git push
+goodbye
