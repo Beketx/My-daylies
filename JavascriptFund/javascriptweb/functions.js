@@ -72,40 +72,46 @@ console.log(bolu.inc)
 
 //PROTOTYPE
 
-function Rectangle (width, height){
-    this.height = height;
-    this.width = width;
+// function Rectangle (width, height){
+//     this.height = height;
+//     this.width = width;
 
-}
+// }
 
-Rectangle.prototype.area = function(){
-    return this.width*this.height;
-}
+// Rectangle.prototype.area = function(){
+//     return this.width*this.height;
+// }
 
-var r = new Rectangle(26,14);
+// var r = new Rectangle(26,14);
 
-var v =r.area();
+// var v =r.area();
+
+
+
+
+
+
 
 //ECASCIPRT 6
 
 
-class Rectangle extends Shape {
-    constructor(height, width){
-        this.width = width;
-        this.height = height;
+// class Rectangle extends Shape {
+//     constructor(height, width){
+//         this.width = width;
+//         this.height = height;
 
-    }
-    area(){
-        return this.width*this.height;
+//     }
+//     area(){
+//         return this.width*this.height;
 
-    }
+//     }
 
-    static conutRects(){
+//     static conutRects(){
 
-    }
-}
+//     }
+// }
 
-var r = new Rectangle(20,14);
+// var r = new Rectangle(20,14);
 
 
 
@@ -119,15 +125,21 @@ var r = new Rectangle(20,14);
 
 //Functional porgramming 
 //1 - imperative
-
+var anrArr=[1,2,3]
+for(i=0 ; i<anArr.length; i++){
+    newarr[i]=anArr[i]*1;
+    console.log(newarr);
+}
 
 //2 - funcitonal
-
+newarr = anArr.map(function(value,index){
+    return value*index;
+});
 
 
 //ECMASCIPTR 6 extendison
 //2 - funcitonal
-
+newarr = anArr.map((value,index)=>value*index);
 
 
 
@@ -150,9 +162,9 @@ JSON.stringify(a)
 
 //HERE FRONT END TAKES AND PARSE IT
 
-"{"a":19}"
+// "{"a":19}"
 
 JSON.parse(a)
 
-{"a":18}
+// {"a":18}
 
