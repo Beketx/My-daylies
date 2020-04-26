@@ -1,0 +1,1 @@
+from .views_w12 import category_list, category_detail
